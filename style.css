@@ -205,5 +205,6 @@ a h5, button h5 {
     margin-bottom: 50px;
     outline: grey;
     outline-style: double;
-    width: 800px;
+    width: 100%;
+    height: 100%;
 }
