@@ -8,6 +8,10 @@
     color: white;
 }
 
+.navbar-toggler-icon {
+    border-color: white;
+}
+
 .subheading {
     font-family: Oswald, serif; 
     font-weight: bold;
