@@ -14,10 +14,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- font awesome icons -->
-  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/758c54b775.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="background-color: rgb(235, 235, 235);">
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
             <a class="navbar-brand" href="#">Nick.</a>
@@ -55,7 +55,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text dark">
                 <a class="memoji img-responsive"><img src="https://i.ibb.co/kqJK654/PNG-image.png" alt="PNG-image" /></a>
                 <h2 class="hero_title">Hi, I'm Nick.</h2>
-                <p class="hero_desc">I am a software developer in Staten Island, NY</p>
+                <p class="hero_desc">I'm a software developer in NYC.</p>
                 <a class="scrollButton" href="#about">Learn More.</a>
             </div>
             </div>
@@ -80,9 +80,24 @@
                     <p class="aboutSynoposis">
                         I am fluent in many different techinologies in the field of software development including numerous languages such as C++, Java, JavaScript/HTML/CSS, PostgreSQL, Swift, PHP, and mySQL. Additionally I am familar with several frameworks and libraries including Node, Express, React, Angular, and Ionic, as well as several techonolgies including but not limited to: Visual Studio/VS Code, XCode, Eclipse, AWS, Git/GitHub, Unix Command Line, Netlify, Heroku, and MS Office Suite.
                     </p>
-                    <p class="aboutSynoposis">
+                    <p class="aboutSynoposis mb-0">
                         I have found that I love developing web and iOS applications. I think the simplicity of iOS design, as well as the clean user interface has inspired to create apps that seamlessly integrate within the Apple ecosystem. I look forward to working with new minds on fantastic new projects in the future!
                     </p>
+                    <div class="row mt-0">
+                        <div class="row mt-2">
+                            <h3>Connect with me:</h3>
+                        </div>
+                        <div class="row mt-2">
+                        <div class="col-lg-4">
+                            <a class="social-contact" href="https://www.linkedin.com/in/nicholas-palermo-cs" target="_blank"><i class="fa-brands fa-linkedin m-2"></i> @nicholas-palermo-cs<br></a>
+                            <a class="social-contact" href="https://www.instagram.com/nick_palermo/" target="_blank"><i class="fa-brands fa-instagram m-2"></i> @nick_palermo</a>
+                        </div>
+                        <div class="col-lg-4">
+                            <a class="social-contact" href="https://github.com/nicholas-palermo" target="_blank"><i class="fa-brands fa-github m-2"></i> @nicholas-palermo<br></a>
+                            <a class="social-contact" href="https://twitter.com/nickpalermo_" target="_blank"><i class="fa-brands fa-twitter m-2"></i> @nickpalermo_</a>
+                        </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -94,16 +109,18 @@
         <div class="container">
             <h1 class="text-center subheading">Portfolio</h1>
             <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <a href="https://github.com/nicholas-palermo/ChalkBoard-FrontEnd" target="_blank" class="card">
+                <div class="port1 col-lg-4 mt-4">
+                    <a href="https://github.com/nicholas-palermo/ChalkBoard-FrontEnd" target="_blank" class="card" id="card1">
                         <div class="card-body p-0">
                             <div class="card-title">
                                 <h5 >Chalkboard School Managment System</h5>
                             </div>
-                            <img src="images/ChalkBoard.PNG" class= "img-fluid portfoilio-img" alt="">
+                            <img src="images/ChalkBoard.PNG" class= "portfolio-img" alt="" id="port-img1">
+                            <!--<p id="port-description1">Chalkboard is a school and course management system meant to be a more user-friendly, and more importantly, mobile friendly version of BlackBoard. It was created using React.js, Node.js, Express.js, and PostgreSQL.</p>-->
                         </div>
                     </a>  
                 </div>
+                
 
                 <div class="col-lg-4 mt-4">
                     <a href="https://github.com/nicholas-palermo/simon-says-prework" target="_blank" class="card">
@@ -111,7 +128,7 @@
                             <div class="card-title">
                                 <h5 >Simon Says: A Web Game</h5>
                             </div>
-                            <img src="images/SimonSays.JPG" class= "img-fluid portfoilio-img" alt="">
+                            <img src="images/SimonSays.JPG" class= "portfolio-img" alt="">
                         </div>
                     </a>  
                 </div>
@@ -123,7 +140,7 @@
                             <div class="card-title">
                                 <h5 >Tipsy: Tip Calculator for iOS</h5>
                             </div>
-                            <img src="images/Tipsy.png" class= "img-fluid portfoilio-img" alt="">
+                            <img src="images/Tipsy.png" class= "portfolio-img" alt="">
                         </div>
                     </a>  
                 </div>
@@ -136,7 +153,7 @@
                             <div class="card-title">
                                 <h5 >Flix: A Movie Database on iOS</h5>
                             </div>
-                            <img src="images/Flix.png" class= "img-fluid portfoilio-img" alt="">
+                            <img src="images/Flix.png" class= "portfolio-img" alt="">
                         </div>
                     </a>  
                 </div>
@@ -147,7 +164,7 @@
                             <div class="card-title">
                                 <h5 >InstaClone: A Clone of Instagram on iOS</h5>
                             </div>
-                            <img src="images/InstaClone.png" class= "img-fluid portfoilio-img" alt="">
+                            <img src="images/InstaClone.png" class= "portfolio-img" alt="">
                         </div>
                     </a>  
                 </div>
@@ -158,7 +175,7 @@
                             <div class="card-title">
                                 <h5 >The Pathway Initative Project</h5>
                             </div>
-                            <img src="images/DevelopForGood.PNG" class= "img-fluid portfoilio-img" alt="">
+                            <img src="images/DevelopForGood.PNG" class= "portfolio-img" alt="">
                         </div>
                     </button>  
                 </div>
@@ -177,7 +194,7 @@
         </div>
     </section>
 
-    <!-- resume section-->
+    <!-- resumé section-->
     <section id="cv">
         <div class="container mt-3">
             <h1 class="text-center subheading">Resumé</h1>
@@ -208,7 +225,7 @@
                 <div class="col-lg-6">
                     <!-- form fields -->
                     <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="text" class="form-control mt-1" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
                         <input type="text" class="form-control mt-3" placeholder="Phone Number">
                         <input type="text" class="form-control mt-3" placeholder="Subject">
