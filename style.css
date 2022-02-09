@@ -248,3 +248,21 @@ a h5, button h5 {
       font-family: Cardo, serif;
       padding-top: 1.2rem;
   }
+
+  @media (max-width: 991.98px) {
+      #about div div div {
+          text-align: center;
+      }
+
+      #about div div div h2 {
+          padding-top: 1rem;
+      }
+
+     #contact div div div {
+         text-align: center;
+     }
+
+     #footer div{
+         text-align: center;
+     }
+  }
