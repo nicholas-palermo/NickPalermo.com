@@ -36,6 +36,7 @@ h3 {
 
 .social-contact{
     font-family: Cardo, sans-serif;
+    transition: color 0.35s;
 }
 
 .social-contact:hover {
@@ -90,16 +91,15 @@ p{
     width: 100%;
 }
 
+.card h5{
+    transition: color 0.35s;
+}
 
 .card-title {
     text-align: center;
 }
 .card:hover h5 {
     color: orange;
-}
-
-.card:hover {
-    border: 1px solid orange;
 }
 
 /* social media icons styling */
@@ -140,6 +140,11 @@ p{
     padding-left: 0.05rem;
     padding-right: 0.05rem;
     filter: grayscale(100%);
+    transition: filter 0.25s;
+}
+
+.icon:hover {
+    filter: grayscale(0%);
 }
 
 /* spacing on all sections */
@@ -172,10 +177,47 @@ h5 {
     background-color: #008000;
 }
 
+#myBtn  {
+    padding: 0;
+}
+
+.portfolio-img_body {
+    position: relative;
+}
+
 .portfolio-img {
+    display: block;
     border-radius: 0% 0% 1% 1%;
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
+}
+
+.portfolio-img_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 0% 0% 1% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s;
+}
+
+.portfolio-img_overlay .port-description {
+    color: white;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.portfolio-img_overlay:hover{
+    opacity: 1;
 }
 
 a:link, a:visited {
